@@ -9,11 +9,31 @@
     <packaging>jar</packaging>
 
     <dependencies>
-      <dependency>
-        <groupId>org.codemonkey.simplejavamail</groupId>
-        <artifactId>simple-java-mail</artifactId>
-        <version>2.3</version>
-      </dependency>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.12.2</version>
+        </dependency>
+
+        <!-- guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-excelant</artifactId>
+            <version>3.10-FINAL</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.codemonkey.simplejavamail</groupId>
+            <artifactId>simple-java-mail</artifactId>
+            <version>2.3</version>
+        </dependency>
     </dependencies>
 
     <build>
